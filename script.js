@@ -8,9 +8,9 @@ function compute()
         alert("please enter a positive value")
     }
     else{
-        var amt = p*(1+ r*t);
+        var amt = p*(1+ r*y);
         var intrest= amt -p;
-        var year = new Date().getFullYear()+parseInt(years);
+        var year = new Date().getFullYear();
         var ele = document.getElementById("result");
         var newele= document.createElement("p")
         var data =`If you deposit ${p},<br>
